@@ -1,0 +1,238 @@
+:root {
+  /* Fonts */
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+
+  /* Colors */
+  --color-iris: #4d5ae5;
+  --color-ocean: #404bbf;
+  --color-navy-blue: #2e2f42;
+  --color-green: #31d0aa;
+  --color-slate: #434455;
+  --color-light-slate: #8e8f99;
+  --color-cornflower: #e7e9fc;
+  --color-cloud: #f4f4fd;
+  --color-navy-blue-modal: #2e2f42;
+  --color-grey: #2e2f42;
+  --color-white: #ffffff;
+  --color-dairy: #fcfcfc;
+  /* Text colors */
+  --main-txt-cl: #434455;
+  --sec-txt-cl: #2e2f42;
+  --main-title-cl: #ffffff;
+
+  /* Other */
+}
+body {
+  background-color: var(--color-white);
+  font-size: 16px;
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--main-txt-cl);
+}
+/**
+  |============================
+  | Base styles
+  |============================
+*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.list {
+  list-style-type: none;
+}
+.link {
+  text-decoration: none;
+}
+.link:hover,
+.link:focus {
+  text-decoration: none;
+}
+.btn {
+  font-family: inherit;
+  cursor: pointer;
+  background: var(--color-iris);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.btn:hover,
+.btn:focus {
+  background-color: var(--color-ocean);
+  color: var(--color-white);
+}
+.main-title {
+  font-family: var(--primary-font);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  text-transform: none;
+  text-align: center;
+  color: var(--main-title-cl);
+}
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--color-navy-blue);
+}
+.subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--color-navy-blue);
+}
+
+.subtitle-txt {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.descr {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  text-transform: none;
+}
+.button-text {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--color-white);
+}
+.small-text {
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  text-transform: none;
+}
+.link-text {
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--color-slate);
+}
+.logo,
+.logo-web {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-navy-blue);
+}
+.logo-web-light {
+  color: var(--color-iris);
+}
+.logo-light {
+  color: var(--color-cloud);
+}
+
+/**
+  |============================
+  | Main page styles
+  |============================
+*/
+/* Header styles */
+/* nav section */
+.header-nav-link {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
+}
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: var(--color-ocean);
+}
+/* contact section */
+.header-contact {
+  font-style: normal;
+}
+.contact {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.contact:hover,
+.contact:focus {
+  color: var(--color-ocean);
+}
+/* Main styles */
+/* Hero section */
+.main-hero {
+  background-color: var(--color-navy-blue);
+}
+/* Feature section */
+
+/* Service section */
+
+/* team section */
+.main-team {
+  background-color: var(--color-cloud);
+}
+
+.main-team-item {
+  background-color: var(--color-white);
+}
+.main-team-name {
+  text-align: center;
+}
+
+.main-team-text {
+  text-align: center;
+}
+/* Footer styles */
+.footer {
+  background-color: var(--color-navy-blue);
+}
+.footer-text {
+  color: var(--color-cloud);
+}
+
+/**
+  |============================
+  | Portfolio styles
+  |============================
+*/
+/* Portfolio main content styles */
+.filter-btn {
+  background-color: var(--color-cloud);
+  border: 1px solid var(--color-cornflower);
+  border-radius: 4px;
+  color: var(--color-iris);
+}
