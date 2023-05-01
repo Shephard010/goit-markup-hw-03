@@ -1,3 +1,22 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/**
+  |============================
+  | NORMALIZE VS RESET
+  |============================
+*/
+img {
+  display: block;
+}
+
 :root {
   /* Fonts */
   --primary-font: 'Roboto', sans-serif;
