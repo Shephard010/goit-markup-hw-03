@@ -81,14 +81,14 @@ body {
   overflow: hidden;
 }
 .section:not(:last-child) {
-  padding: 60px 0;
+  padding: 120px 0;
 }
 .container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  /* outline: 2px solid red;
-  outline-offset: -2px; */
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 .link {
   text-decoration: none;
@@ -172,7 +172,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-navy-blue);
-  margin-right: 38px;
+  margin-right: 76px;
 }
 .logo-web-light {
   color: var(--color-iris);
@@ -216,7 +216,7 @@ body {
 .header-nav-list {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 40px;
 }
 .header-nav-link {
   font-family: var(--primary-font);
@@ -259,17 +259,17 @@ body {
   background-color: var(--color-navy-blue);
 }
 .main-hero-title {
-  width: 496px;
+  max-width: 496px;
   margin: auto;
-  padding: 128px 0 0 0;
-  margin-bottom: 48px;
+  padding: 188px 0;
 }
 .main-hero-btn {
   display: block;
   min-width: 169px;
-  min-height: 56px;
+  height: 56px;
   padding: 15px 31px;
   margin: 0 auto;
+  border: none;
 }
 .btn-container {
   padding-bottom: 120px;
@@ -307,21 +307,28 @@ body {
 }
 .main-team-name {
   text-align: center;
+  margin-bottom: 8px;
 }
 .main-team-text {
+  text-align: center;
+}
+.team-card-txt {
+  padding: 32px 16px;
   text-align: center;
 }
 /* Footer styles */
 .footer {
   background-color: var(--color-navy-blue);
+  padding: 100px 0;
 }
 .footer-text {
   color: var(--color-cloud);
   width: 264px;
 }
-.footer-container {
-  display: block;
-  padding: 100px 15px;
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 /**
   |============================
@@ -329,8 +336,11 @@ body {
   |============================
 */
 /* Portfolio main content styles */
+.pfl-section {
+  padding: 96px 0 120px;
+}
 .pfl-filters-list {
-  padding: 96px 0 72px 0;
+  margin-bottom: 72px;
   gap: 24px;
   justify-content: center;
 }
@@ -343,6 +353,7 @@ body {
 .filter-btn:hover,
 .filter-btn:focus {
   color: var(--color-white);
+  border: 1px solid transparent;
 }
 
 .filter-btn-txt {
@@ -354,9 +365,9 @@ body {
   padding-bottom: 120px;
 }
 .pfl-row-item {
-  border: 1px solid #e7e9fc;
+  /* border: 1px solid #e7e9fc; */
 }
-
 .row-text-container {
   padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
