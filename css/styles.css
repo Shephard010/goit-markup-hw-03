@@ -101,7 +101,14 @@ body {
   font-family: inherit;
   cursor: pointer;
   background: var(--color-iris);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--color-white);
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
   border-radius: 4px;
 }
 .btn:hover,
@@ -149,7 +156,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.button-text {
+/* .button-text {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -157,7 +164,7 @@ body {
   text-decoration: none;
   text-transform: none;
   color: var(--color-white);
-}
+} */
 .small-text {
   font-size: 12px;
   line-height: 1.16;
@@ -303,7 +310,6 @@ body {
 .main-team-item {
   background-color: var(--color-white);
   flex-basis: calc((100% - 3 * 24px) / 4);
-
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
@@ -350,6 +356,7 @@ body {
 .filter-btn {
   background-color: var(--color-cloud);
   border: 1px solid var(--color-cornflower);
+  padding: 12px 24px;
   border-radius: 4px;
   color: var(--color-iris);
 }
@@ -359,13 +366,12 @@ body {
   border: 1px solid transparent;
 }
 
-.filter-btn-txt {
+/* .filter-btn-txt {
   padding: 12px 24px;
-}
+} */
 .pfl-row-list {
   gap: 24px;
   row-gap: 48px;
-  padding-bottom: 120px;
 }
 /* .pfl-row-item {
   border: 1px solid #e7e9fc;
